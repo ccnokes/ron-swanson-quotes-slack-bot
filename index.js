@@ -36,7 +36,7 @@ app.use((req, res, next) => {
 });
 
 // Setup some endpoints
-app.post('/', (req, res) => {
+app.post('/ron', (req, res) => {
   // the request should have our slack verification token in it so we know it's coming from Slack
   if (req.body.token !== process.env.SLACK_VERIFICATION_TOKEN) {
     res.status(400).send(`Invalid request.`);
@@ -66,7 +66,7 @@ app.get('/slack-oauth', (req, res) => {
     .then(teamDomain => res.redirect(`http://${teamDomain}.slack.com`))
     .catch(err => {
       console.error(err.message);
-      res.send(`Uh oh.`);
+      res.status(500).send(`Uh oh.`);
     });
   
 });

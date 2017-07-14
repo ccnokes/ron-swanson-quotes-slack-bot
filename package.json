@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start index.js -i 0",
+    "deploy": "scp -i ~/.ssh/personal_site ron.zip root@192.241.173.106:/root",
+    "zip": "zip -r ron.zip ."
   },
   "keywords": [],
   "author": "",
