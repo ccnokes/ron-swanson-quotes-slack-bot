@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>Ron Swanson Quotes Slack Bot</title>
+    <meta name="slack-app-id" content="A68JLPUSX">
+    <style>
+      body {
+        background: #F9F9F9;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 16px;
+        color: #3b3b3b;
+        line-height: 1.4;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .container {
+        background: white;
+        border: 1px solid #D8D8D8;
+        border-radius: 6px;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.08);
+        padding: 2em;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      h1 {
+        margin: 0;
+        margin-left: 8px;
+      }
+      .hgroup img {
+        border-radius: 4px;
+      }
+      .hgroup {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 2em;
+      }
+      code {
+        background: #ebebeb;
+        border: 1px solid #dfdfdf;
+        display: inline;
+        padding: 0 5px;
+        border-radius: 4px;
+      }
+      blockquote {
+        font-style: italic;
+        font-size: 1.1rem;
+        padding: 1.5em;
+        margin: 0;
+        border-radius: 4px;
+        background: #f7f7f7;
+      }
+      hr {
+        margin: 2rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="hgroup">
+        <img src="/ron-swanson.jpg" />
+        <h1>Ron Swanson Quotes Slack Bot</h1>
+      </div>
+      <p>
+        Click the button below to add the bot to your Slack channel. First you'll be redirected to Slack where you'll authorize the bot, then you'll be redirected to your team's slack.
+      </p>
+      <br>
+      <a href="https://slack.com/oauth/authorize?&client_id=32594390787.212632810915&scope=commands,team:read"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+
+      <hr>
+      <h3>Usage</h3>
+      <p>
+        Type <code>&#x2F;ron</code> or <code>&#x2F;swanson</code> to get a random Ron Swanson quote.
+        You can optionally add a word to match on. For example <code>&#x2F;ron bacon</code> would return: 
+      </p>
+      <blockquote>
+        "Give me all the bacon and eggs you have."
+      </blockquote>
+    </div>
+
+  </body>
+</html>
