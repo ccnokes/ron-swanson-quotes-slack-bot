@@ -1,4 +1,4 @@
-# ron-swanson-quotes-slack-bot
+# Ron Swanson Quotes Slack Bot
 Adds a slash command to post Ron Swanson quotes to Slack
 
 For example `/ron` returns "Give me all the bacon and eggs you have.". 
