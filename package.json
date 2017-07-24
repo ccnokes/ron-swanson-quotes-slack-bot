@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js -i 0",
-    "deploy": "scp -i ~/.ssh/personal_site ron.zip root@192.241.173.106:/root",
-    "zip": "zip -r ron.zip ."
+    "start": "NODE_ENV=production pm2 start index.js --name ron -i 0"
   },
   "keywords": [],
-  "author": "",
+  "author": "Cameron Nokes",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",

@@ -28,7 +28,7 @@ module.exports = [
     "Fish, for sport only, not for meat. Fish meat is practically a vegetable.",
     "There is only one bad word: taxes.",
     "History began July 4th, 1776. Anything before that was a mistake.",
-    "Cultivating a manly musk puts opponent on notice.",
+    "Cultivating a manly musk puts your opponents on notice.",
     "Give a man a fish and feed him for a day. Don't teach a man to fish… and feed yourself. He's a grown man. And fishing's not that hard.",
     "Child labor laws are ruining this country.",
     "Great job, everyone. The reception will be held in each of our individual houses, alone.",
@@ -76,5 +76,15 @@ module.exports = [
     "Poise: Sting like a bee. Do not float like a butterfly. That’s ridiculous.",
     "Rage: One rage every three months is permitted. Try not to hurt anyone who doesn’t deserve it.",
     "Cursing: There’s only one bad word; Taxes. If any other word is good enough for sailors, it’s good enough for you.",
-    "Friends: One to three is sufficient."
+    "I would sooner visit Europe than have something romantic happen between us.",
+    "The whole point of this country is if you want to eat garbage, balloon up to 600 pounds and die of a heart attack at 43, you can! You are free to do so. To me, that’s beautiful.",
+    "Capitalism is the only way... It makes America great, England OK, and France terrible.",
+    "When I walked in this morning and saw that the flag was half-mast, I thought 'Alright, another bureaucrat ate it!'",
+    "My idea of a perfect government is one guy who sits in a small room at a desk and the only thing he’s allowed to decide is who to nuke.",
+    "Dammit I love this country so much.",
+    "If there was more food and fewer people, this would be a perfect party.",
+    "I have the toes I have. Let's just leave it at that.",
+    "If it doesn't have meat, it's a snack.",
+    "If any of you need anything at all, too bad. Deal with your problems yourselves like adults.",
+    "Ann: Do you have any history of mental illness in your family? \nRon: I have an uncle who does yoga."
 ];
