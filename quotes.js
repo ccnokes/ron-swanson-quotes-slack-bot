@@ -70,7 +70,7 @@ module.exports = [
     "Birthdays were invented by Hallmark to sell cards.",
     "I have a hernia. I've had it for a while. And I've been ignoring it... successfully, but this morning, I made the mistake of sneezing.",
     "There has never been a sadness that can't be cured by breakfast food.",
-    "I can't think of anything more noble to go to war over, than bacon and eggs.",
+    "I can't think of anything more noble to go to war over than bacon and eggs.",
     "Body Grooming: Only women shave below the neck.",
     "Handshakes: Firm, dry, solid, 3 seconds.",
     "Poise: Sting like a bee. Do not float like a butterfly. That’s ridiculous.",
