@@ -86,5 +86,8 @@ module.exports = [
     "I have the toes I have. Let's just leave it at that.",
     "If it doesn't have meat, it's a snack.",
     "If any of you need anything at all, too bad. Deal with your problems yourselves like adults.",
-    "Ann: Do you have any history of mental illness in your family? \nRon: I have an uncle who does yoga."
+    "Ann: Do you have any history of mental illness in your family? \nRon: I have an uncle who does yoga.",
+    "It’s pointless for a human to paint scenes of nature when they can go outside and stand in it.",
+    "Normally, if given the choice between doing something and nothing, I’d choose to do nothing. But I will do something if it helps someone else do nothing. I’d work all night, if it meant nothing got done.",
+    "That is a canvas sheet, the most versatile object known to man. It can be used to make tents, backpacks, shoes, stretchers, sails, tarpaulins, and I suppose, in the most dire of circumstances, it can be a surface on which to make art."
 ];
